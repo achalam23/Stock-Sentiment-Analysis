@@ -45,30 +45,3 @@ venv\Scripts\activate.ps1
 pip install -r requirements.txt
 ```
 
-## Load Large Dataset
-
-In order to have the actual tweet_sentiment.csv file in your folder you must use Git LFS
-
-### To Download
-
-#### macOS
-
-```bash
-brew install git-lfs
-```
-
-#### Windows
-
-Download from [Git LFS](https://git-lfs.com/)
-
-### Once Downloaded, Initialize Git LFS
-
-```bash
-git lfs install
-```
-
-### Fetch Files
-
-```bash
-git lfs pull
-```
